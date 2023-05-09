@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+      video {
+        width: 400px;
+      }
+      ul {
+        list-style-type: none;
+      }
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+      .top-bar {
+        background-color: gold;
+        width: 300px;
+      }
+      .highlight {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top-bar">
+      <a href="company/about.html">About Me</a>
+      <a href="images/mosh.jpg" download>Mosh Photo</a>
+      <a href="#section-css">CSS</a>
+      <a href="http://www.google.com" target="_blank" rel="noopener">Google</a>
+      <a href="mailto:m.anyadioha@gmail.com">Email Me</a>
+    </div>
+    <p>
+      <span class="highlight">Lorem</span> ipsum dolor sit amet consectetur,
+      adipisicing elit. Minus aspernatur iure ducimus quidem laborum ea. In
+      dicta assumenda nostrum laudantium.
+    </p>
+    <article>
+      <h1>Heading</h1>
+      <p>
+        Published <time datetime="2023-03-21 23:45">March 20, 2023 23:45</time>
+      </p>
+      <p>
+        <mark>Lorem</mark> ipsum dolor sit, amet consectetur adipisicing elit.
+        Saepe, cupiditate.
+      </p>
+      <figure>
+        <img src="images/coffee.jpg" alt="A picture of a cup of coffee" />
+        <figcaption>My coffee today</figcaption>
+      </figure>
+    </article>
+    <video controls autoplay loop src="videos/ocean.mp4">
+      Your broswer doesn't support videos
+    </video>
+    <audio controls src="audios/crash.mp3"></audio>
+    <h2 id="section-css">CSS</h2>
+    <p>
+      I love <strong><em>&lt;HTML!&gt;</em></strong>
+    </p>
+    <h3>Unorder List</h3>
+    <ul>
+      <li>About me</li>
+      <li>
+        Courses
+        <ul>
+          <li>HTML</li>
+          <li>Javascript</li>
+          <li>Git</li>
+        </ul>
+      </li>
+      <li>Subscribe</li>
+      <li>Contact me</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+      <li>Preheat the oven.</li>
+      <li>Place ingredient on the crust.</li>
+      <li>Put pizza in the oven for 20 minutes.</li>
+    </ol>
+    <h3>Description List</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext Markup Langauge</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Stylesheets</dd>
+      <dt>JS</dt>
+      <dd>Javascript</dd>
+    </dl>
+    <h3>Tables</h3>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Categrory</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accouting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+    <a href="#">Jump to Top</a>
+  </body>
+</html>
