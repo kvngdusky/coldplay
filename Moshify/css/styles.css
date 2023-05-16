@@ -604,22 +604,22 @@ a {
 
 /* Navigation Bar */
 .nav {
+  align-items: center;
   background: #000;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding: 0 1rem;
-  align-items: center;
 }
 
 .nav__list {
-  width: 100%;
   margin: 0;
+  width: 100%;
 }
 
 .nav__item {
-  padding: 0.5rem 2rem;
   border-bottom: 1px solid #222;
+  padding: 0.5rem 2rem;
 }
 
 .nav__item > a {
@@ -632,15 +632,15 @@ a {
 }
 
 .nav__toggler {
+  cursor: pointer;
   opacity: 0.5;
   transition: box-shadow 0.15s;
-  cursor: pointer;
 }
 
 .nav.collapsible--expanded .nav__toggler {
-  opacity: 1;
-  box-shadow: 0 0 0 3px #666;
   border-radius: 5px;
+  box-shadow: 0 0 0 3px #666;
+  opacity: 1;
 }
 
 .nav__brand {
@@ -653,11 +653,11 @@ a {
   }
 
   .nav__list {
-    width: auto;
     display: flex;
     font-size: 1.6rem;
     max-height: 100%;
     opacity: 1;
+    width: auto;
   }
 
   .nav__item {
@@ -687,7 +687,7 @@ a {
   }
 
   .hero__content {
-    text-align: left;
     align-self: center;
+    text-align: left;
   }
 }
