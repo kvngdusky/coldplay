@@ -412,8 +412,8 @@ a {
 
 .quote__author {
   font-size: 3rem;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -425,8 +425,8 @@ a {
 }
 
 .quote__line {
-  position: relative;
   bottom: 10px;
+  position: relative;
 }
 
 @media screen and (min-width: 1024px) {
@@ -475,8 +475,8 @@ a {
 
 .testimonial__image > .icon-container {
   position: absolute;
-  top: 3rem;
   right: -32px;
+  top: 3rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -492,8 +492,8 @@ a {
 
 /* Callouts */
 .callout {
-  padding: 4rem;
   border-radius: 5px;
+  padding: 4rem;
 }
 
 .callout--primary {
@@ -503,13 +503,13 @@ a {
 
 .callout__heading {
   color: #fff;
-  margin-top: 0;
   font-size: 3rem;
+  margin-top: 0;
 }
 
 .callout .btn {
-  justify-self: center;
   align-self: center;
+  justify-self: center;
 }
 
 .callout__content {
@@ -538,8 +538,8 @@ a {
 }
 
 .collapsible__heading {
-  margin-top: 0;
   font-size: 3rem;
+  margin-top: 0;
 }
 
 .collapsible__chevron {
@@ -561,4 +561,42 @@ a {
 .collapsible--expanded .collapsible__content {
   max-height: 100vh;
   opacity: 1;
+}
+
+/* Blocks */
+.block {
+  --padding-vertical: 6rem;
+  padding: var(--padding-vertical) 2rem;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block__heading {
+  margin-top: 0;
+}
+
+.block--dark {
+  background: #000;
+  color: #7b858b;
+}
+
+.block--dark .block__heading {
+  color: #fff;
+}
+
+.block--skewed-right {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.block--skewed-left {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
 }
