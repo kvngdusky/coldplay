@@ -188,7 +188,6 @@ if (mark.bmi > john.bmi) {
     `${john["fullName"]}'s BMI (${john["bmi"]}) is higher than ${mark["fullName"]}'s (${mark["bmi"]})`
   );
 }
-*/
 
 // Challenge 2.4
 
@@ -224,3 +223,4 @@ const calcAverage = function (arr) {
 };
 
 console.log(calcAverage(bills), calcAverage(tips), calcAverage(totals));
+*/
